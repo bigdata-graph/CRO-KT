@@ -6,10 +6,16 @@ The CRO-KT model designs a coordination and collaboration optimization module, e
 
 
 ## Overview
-The project aims to generate student interaction sequences from ASSISTments datasets (2009 and 2012 versions) and build knowledge tracing models. Key functionalities include:
-- Data preprocessing (cleaning, filtering, and feature extraction)
-- Construction of problem-skill bipartite graphs
-- Generation of student interaction sequences with cognitive relevance optimization
+The model achieves the refinement of cognitive representations through "dual-module optimization + bipartite graph embedding fusion", with its core structure consisting of three parts:
+
+### Coordination Module
+Based on a dynamic programming algorithm, it targets questions "within the same knowledge point and with significant difficulty differences (|difficulty difference| ≥ α, α ≈ 0.8)". By minimizing the cost function (e.g., Eq. (16)-(20)), it adjusts the answer states to address the incoherence issues such as "incorrect answers to easy questions but correct answers to difficult ones" or "correct answers to easy questions but incorrect answers to difficult ones". This ensures that the representations align with students' cognitive patterns (i.e., answering a more difficult question correctly better reflects mastery of easier questions).
+
+### Collaboration Module
+Based on a co-optimization algorithm, it focuses on questions "within the same knowledge point and with similar difficulty (|difficulty difference| ≤ β, β ≈ 0.05)". It calculates the discriminant coefficient γ (integrating the collaboration strength λ_ij and propagation strength ω_ij between sub-goals) to iteratively optimize answer states. This resolves the problem of insufficient synergy in answer results and makes the representations of questions with similar difficulty more consistent.
+
+### Bipartite Graph Relational Embedding Fusion
+It constructs a "question-skill" bipartite graph and learns the relational embeddings between questions and skills through cross-entropy loss (Eqs. (3), (6), (7)). These embeddings are then weighted and fused with the optimized cognitive representations, which enhances the cognitive expression across knowledge points and compensates for the limitations of single-record representations.
   
 
 
