@@ -2,7 +2,7 @@ Email:xlxiang@ustc.edu.cn
 
 # CRO-KT: Cognitive Representation Optimization for Knowledge Tracing
 
-This repository implements a knowledge tracing framework (CRO-KT) for educational data mining, focusing on processing education datasets and building models to predict student performance on educational tasks.
+The CRO-KT model designs a coordination and collaboration optimization module, establishes bipartite graph relationship embedding, forms optimal cross-knowledge solution combinations, and fully leverages the advantages of graphs.
 
 
 ## Overview
