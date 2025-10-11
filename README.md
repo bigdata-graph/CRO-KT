@@ -31,3 +31,4 @@ It constructs a "question-skill" bipartite graph and learns the relational embed
    ```bash
    git clone https://github.com/your-username/CRO-KT.git
    cd CRO-KT
+   python cor_dkt
