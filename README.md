@@ -26,6 +26,10 @@ It constructs a "question-skill" bipartite graph and learns the relational embed
 - Required libraries (see `requirements.txt`)
 
 
+### EdNet
+Data pre-process for EdNet dataset. we use the 'ednet-kt1' dataset. You can download it [here](https://drive.google.com/file/d/1AmGcOs5U31wIIqvthn9ARqJMrMTFTcaw/view). The question information file is [here](https://drive.google.com/file/d/117aYJAWG3GU48suS66NPaB82HwFj6xWS/view). For more information about [EdNet](https://github.com/riiid/ednet)
+
+
 ### Installation
 1. Clone this repository:
    ```bash
