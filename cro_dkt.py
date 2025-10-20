@@ -30,11 +30,11 @@ def train_test_split(data, split=0.8):
 
 
 # data
-# data_folder = "assist09"
-data_folder = "assist12"
+data_folder = "assist09"
+#data_folder = "assist12"
 # data = np.load(os.path.join(data_folder, data_folder+'.npz'))
 
-data = np.load(os.path.join(data_folder, 'assist12f1.npz'))#测试
+data = np.load(os.path.join(data_folder, 'assist09f3.npz'))#测试
 y, skill, problem, real_len = data['y'], data['skill'], data['problem'], data['real_len']
 skill_num, pro_num = data['skill_num'], data['problem_num']
 print('problem number %d, skill number %d' % (pro_num, skill_num))
