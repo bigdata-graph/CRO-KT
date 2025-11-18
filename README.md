@@ -80,5 +80,5 @@ It constructs a "question-skill" bipartite graph and learns the relational embed
 - **Paper Link**: https://ieeexplore.ieee.org/document/11196052
 - **PubMed ID**: 41060868
 #### Citation Guidelines
-- **If you use the code in this repository for research or publish results, please cite this paper. The recommended citation format (following IEEE standards) is**:
-- L. Xu, X. Ding, X. Yuan, Z. Wang, L. Bai and E. Chen, "Improving Question Embeddings With Cognitive Representation Optimization for Knowledge Tracing," IEEE Transactions on Cybernetics, Early Access, doi: 10.1109/TCYB.2025.3612399.
+If you use the code in this repository for research or publish results, please cite this paper. The recommended citation format (following IEEE standards) is:
+L. Xu, X. Ding, X. Yuan, Z. Wang, L. Bai and E. Chen, "Improving Question Embeddings With Cognitive Representation Optimization for Knowledge Tracing," IEEE Transactions on Cybernetics, Early Access, doi: 10.1109/TCYB.2025.3612399.
