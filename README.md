@@ -71,21 +71,14 @@ It constructs a "question-skill" bipartite graph and learns the relational embed
    
 ### Paper Statement
 #### Paper Information
-Title: Improving Question Embeddings With Cognitive Representation Optimization for Knowledge Tracing
-Authors: Lixiang Xu; Xianwei Ding; Xin Yuan; Zhanlong Wang; Lu Bai; Enhong Chen
-Publication: IEEE Transactions on Cybernetics (Early Access)
-Publication Date: 08 October 2025
-DOI: 10.1109/TCYB.2025.3612399
-Official Code Repository: https://github.com/bigdata-graph/CRO-KT
-Paper Link: https://ieeexplore.ieee.org/document/11196052
-PubMed ID: 41060868
-Author Contributions
-In accordance with IEEE journal standards and the research content of the paper, the specific contributions of each author are as follows (referring to academic paper author contribution classification criteria):
-Lixiang Xu (First Author): Conceptualization, Methodology, Software, Formal Analysis, Writing - Original Draft
-Xianwei Ding: Data Curation, Validation, Investigation
-Xin Yuan: Visualization, Formal Analysis, Writing - Review & Editing
-Zhanlong Wang: Resources, Project Administration
-Lu Bai: Supervision, Validation
-Enhong Chen (Corresponding Author): Conceptualization, Funding Acquisition, Supervision, Writing - Review & Editing
+- **Title**: Improving Question Embeddings With Cognitive Representation Optimization for Knowledge Tracing
+- **Authors**: Lixiang Xu; Xianwei Ding; Xin Yuan; Zhanlong Wang; Lu Bai; Enhong Chen
+- **Publication**: IEEE Transactions on Cybernetics (Early Access)
+- **Publication Date**: 08 October 2025
+- **DOI**: 10.1109/TCYB.2025.3612399
+- **Official Code Repository**: https://github.com/bigdata-graph/CRO-KT
+- **Paper Link**: https://ieeexplore.ieee.org/document/11196052
+- **PubMed ID**: 41060868
 #### Citation Guidelines
-If you use the code in this repository for research or publish results, please cite this paper. The recommended citation format (following IEEE standards) is:L. Xu, X. Ding, X. Yuan, Z. Wang, L. Bai and E. Chen, "Improving Question Embeddings With Cognitive Representation Optimization for Knowledge Tracing," IEEE Transactions on Cybernetics, Early Access, doi: 10.1109/TCYB.2025.3612399.
+- **If you use the code in this repository for research or publish results, please cite this paper. The recommended citation format (following IEEE standards) is**:
+- L. Xu, X. Ding, X. Yuan, Z. Wang, L. Bai and E. Chen, "Improving Question Embeddings With Cognitive Representation Optimization for Knowledge Tracing," IEEE Transactions on Cybernetics, Early Access, doi: 10.1109/TCYB.2025.3612399.
